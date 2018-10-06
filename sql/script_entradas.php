@@ -9,4 +9,5 @@ for(;$ent<=350;$ent++){
   $query .= "($ent,2,'Libre'), \r\n";
 }
 echo $query;
+echo "end";
 ?>
