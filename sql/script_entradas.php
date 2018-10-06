@@ -1,4 +1,6 @@
 <?php
+/* Para generar script sql que ingrese entradas libres, no está perfecto,
+hay que agregar algunas cosas */
 $query = "INSERT INTO Entradas (Entradas_id,Eventos_id,Estado) VALUES";
 
 for($ent=1;$ent<=200;$ent++){
